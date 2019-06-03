@@ -1,0 +1,56 @@
+.why-chose-us {
+    padding: 125px 0;
+    background: $dark-grey;
+    color: $white;
+
+    &__headline {
+        text-align: center;
+        margin-bottom: 90px;
+        font-size: 36px;
+        font-family: $roboto;
+        font-weight: bold;
+
+    }
+
+    &__img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background: $grey;
+        display: inline-block;
+
+    }
+
+    &__card {
+        text-align: center;
+
+    }
+
+    &__title {
+        padding: 35px 0;
+        font-size: 24px;
+        font-family: $roboto;
+        font-weight: 700;
+
+    }
+
+    &__title:hover {
+        color:$green;
+
+    }
+
+    &__text {
+        font-size: 15px;
+        font-family: $roboto;
+        font-weight: 400;
+    }
+}
+
+
+
+
+
+
+
+
+    
