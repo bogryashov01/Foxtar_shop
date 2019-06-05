@@ -1,0 +1,5 @@
+@mixin default-text($size, $weight){
+    font-family: 'roboto', Helvetica, Arial, sans-serif;
+    font-size: $size;
+    font-weight: $weight;
+}
