@@ -3,23 +3,38 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync'),
     uglifyjs = require('gulp-uglifyjs'),
     concat = require('gulp-concat'),
+    concatCss = require('gulp-concat-css'),
     rename = require('gulp-rename'),
     autoprefixer = require('gulp-autoprefixer'),
-    cssnano = require('gulp-cssnano'),
-    sourcemaps = require('gulp-sourcemaps');
+    cleanCSS = require('gulp-clean-css'),
+    sourcemaps = require('gulp-sourcemaps'),
+    tinypng = require('gulp-tinypng-compress'),
+    spritesmith = require('gulp.spritesmith'),
+    spritesmash = require('gulp-spritesmash');
 
 gulp.task('scss', async function(){
     return gulp.src('app/scss/**/*.scss')
             .pipe(sourcemaps.init())
             .pipe(scss({
-                outputStyle: 'expanded'
+                outputStyle: 'compressed'
             }))
             .pipe(autoprefixer({
                 browsers: ['last 8 versions'],
             }))
             .pipe(sourcemaps.write())
+            .pipe(rename({suffix: '.min'}))
             .pipe(gulp.dest('app/css'))
             .pipe(browserSync.reload({stream: true}))
+});
+
+gulp.task('libs-styles', async function(){
+    return gulp.src(['app/libs/**/*.scss', 'app/libs/**/*.css'])
+            .pipe(scss())
+            .pipe(concatCss("libs.min.css"))
+            .pipe(cleanCSS())
+            .pipe(gulp.dest('app/css/'))
+            .pipe(browserSync.reload({stream: true}))
+
 });
 
 gulp.task('script', async function(){
@@ -47,10 +62,41 @@ gulp.task('js', async function(){
         .pipe(gulp.dest('app/js'))
 });
 
+gulp.task('sprite', async function() {
+    return gulp.src('app/img/sprite/*.png')
+    .pipe(spritesmith({
+      imgName: 'sprite.png',
+      cssName: 'sprite.css',
+    }))
+    .pipe(spritesmash())
+    .pipe(gulp.dest('app/sprite/'));
+})
+
 gulp.task('watch', async function(){
     gulp.watch('app/scss/**/*.scss', gulp.parallel('scss'))
+    gulp.watch('app/libs/**/*.scss', gulp.parallel('libs-styles'))
+    gulp.watch('app/libs/**/*.js', gulp.parallel('js'))
     gulp.watch('app/js/**/*.js', gulp.parallel('script'))
     gulp.watch('app/*.html', gulp.parallel('code'))
 });
 
-gulp.task('default', gulp.parallel('scss', 'js', 'browser-sync', 'watch'));
+gulp.task('default', gulp.parallel('sprite', 'scss', 'libs-styles', 'js', 'browser-sync', 'watch'));
+
+
+
+// BUILD
+
+// gulp.task('fonts', function () {
+// return gulp.src('app/fonts/*')
+//     .pipe(gulp.dest('srs/fonts/'))
+// });
+
+// gulp.task('tinypng', async function () {
+// 	gulp.src('app/img/*.{png,jpg,jpeg}')
+// 		.pipe(tinypng({
+// 			key: 'eGwHsgRHgRYLa2syNI121TJRmNwb7J46',
+// 			sigFile: 'app/img/.tinypng-sigs',
+// 			log: true
+// 		}))
+// 		.pipe(gulp.dest('app/img/'));
+// });
