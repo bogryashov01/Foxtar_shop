@@ -1,26 +1,28 @@
 {
-  "name": "start_gulp",
+  "name": "foxtar",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "gulp-sourcemaps": "^2.6.5"
-  },
+  "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.2.0",
     "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
     "gulp-cssnano": "^2.1.3",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-spritesmash": "^1.1.1",
+    "gulp-tinypng-compress": "^1.2.5",
     "gulp-uglifyjs": "^0.6.2",
-    "normalize.css": "^8.0.1",
-    "slick-carousel": "^1.8.1"
+    "gulp.spritesmith": "^6.10.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Maks Buryi",
   "license": "ISC"
 }
