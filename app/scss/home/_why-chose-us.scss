@@ -12,9 +12,11 @@
 
     }
 
+
     
     .why-choose-card {
         text-align: center;
+
     
         &__img {
             width: 113px;
@@ -29,6 +31,7 @@
             font-size: 24px;
             font-family: $roboto;
             font-weight: 700;
+            display: block;
     
         }
     
