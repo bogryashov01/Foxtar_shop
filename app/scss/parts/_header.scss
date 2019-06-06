@@ -1,0 +1,189 @@
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/lato-semibold.woff2') format('woff2'),
+		url('../fonts/lato-semibold.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/lato-semibold.woff2') format('woff2'),
+		url('../fonts/lato-semibold.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/raleway-bold.woff2') format('woff2'),
+		url('../fonts/raleway-bold.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/raleway-bold.woff2') format('woff2'),
+		url('../fonts/raleway-bold.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Opensans';
+	src: url('../fonts/opensans-semibold.woff2') format('woff2'),
+		url('../fonts/opensans-semibold.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Opensans';
+	src: url('../fonts/opensans-semibold.woff2') format('woff2'),
+		url('../fonts/opensans-semibold.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto-bold.woff2') format('woff2'),
+		url('../fonts/roboto-bold.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto-bold.woff2') format('woff2'),
+		url('../fonts/roboto-bold.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto-light.woff2') format('woff2'),
+		url('../fonts/roboto-light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto-light.woff2') format('woff2'),
+		url('../fonts/roboto-light.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto-medium.woff2') format('woff2'),
+		url('../fonts/roboto-medium.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto-medium.woff2') format('woff2'),
+		url('../fonts/roboto-medium.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto-regular.woff2') format('woff2'),
+		url('../fonts/roboto-regular.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto-regular.woff2') format('woff2'),
+		url('../fonts/roboto-regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  line-height: 1.7;
+  background-color: #8bc34a;
+}
+
+.header {
+  display: block;
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+}
+
+.info__content {
+  font-size: 15px;
+  font-family: "Opensans";
+  line-height: 1.6;
+  text-align: left;
+  position: absolute;
+  left: 996px;
+  top: 57px;
+  justify-content: space-between;
+}
+
+.info__content p span {
+  color: rgb(231, 76, 60);
+}
+
+.header-info__button-login {
+  left: 0px;
+  top: 0px;
+  border: none;
+  font-family: "Roboto";
+  color: #ffff;
+  background-color: #8bc34a;
+  line-height: 2;
+  text-align: center;
+  border-radius: 4px;
+  width: 70px;
+  height: 30px;
+}
+
+.header-info__button-register {
+  left: 0px;
+  top: 0px;
+  border: none;
+  font-family: "Roboto";
+  color: #ffff;
+  background-color: #e74c3c;
+  line-height: 2;
+  text-align: center;
+  border-radius: 4px;
+  width: 70px;
+  height: 30px;
+}
