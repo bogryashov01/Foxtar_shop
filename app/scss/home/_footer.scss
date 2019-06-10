@@ -1,0 +1,83 @@
+.footer {
+    background-color: $dark-grey;
+    padding-top: 120px;
+    color: #ffffff;
+
+
+&__element {
+        width: 50px;
+        height: 3px;
+        background-color: $green;
+        margin-bottom: 30px;
+
+        
+    }
+
+&__headlene {
+    font-family: raleway-bold;
+    font-size: 22px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+&__description {
+    padding-bottom: 30px;
+    font-family: roboto-regular;
+    font-size: 15px;
+
+}
+
+&__container  {
+    font-family: lato-semibold;
+    font-size: 14px;
+    align-items: end;
+    margin-bottom: 30px;
+
+img {
+        padding-right: 10px;
+    }    
+
+
+ }
+
+ &__items {
+     margin-bottom: 25px;
+     font-family: roboto-regular;
+     display: flex;
+     align-items: center;
+
+img {
+    padding-right: 10px;
+}
+
+ }
+
+&__sprite {
+    margin-bottom: 40px;
+}
+
+&__icon {
+    padding-right: 5px
+}
+
+.btn{
+    width: 36px;
+    height: 36px;
+    background: $green;
+    bottom: 108px;
+    position: absolute;
+    right: 16px;
+    
+}    
+
+.form-control {
+    background: #2f3c43;
+    border: none;
+}
+ 
+
+
+
+
+
+}
