@@ -131,12 +131,23 @@
 }
 
 .header {
-  display: block;
+  display: flex;
+  flex-wrap: nowrap;
   position: fixed;
   width: 100%;
   background-color: #ffffff;
   top: 0;
   left: 0;
+  padding: 10px 0;
+}
+
+.header__container {
+    width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .info__content {
@@ -150,6 +161,11 @@
 
 .info__content p span {
   color: rgb(231, 76, 60);
+}
+
+.buttons {
+	align-items: center;
+	margin-right: 15px;
 }
 
 .header-info__button-login {

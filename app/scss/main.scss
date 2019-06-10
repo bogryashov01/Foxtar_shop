@@ -5,6 +5,7 @@
 @import "base/fonts";
 @import "base/reset";
 @import "base/extensions";
+@import "parts/header";
 
 body {
     @include default-text(14px, 400);
