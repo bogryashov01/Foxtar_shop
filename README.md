@@ -11,4 +11,12 @@ $blue:#42a5f5;
 #Veriables_font-family
 $roboto:'Roboto',Helvetica,Arial,sans-serif;
 $opensans:'Open-sans',Helvetica,Arial,sans-serif;
-
+#Fonts
+lato-semibold;
+opensans-semibold;
+raleway-bold;
+roboto-bold;
+roboto-light;
+roboto-medium;
+roboto-regular;
+fontawesome <https://use.fontawesome.com/releases/v5.8.1/css/all.css>;
