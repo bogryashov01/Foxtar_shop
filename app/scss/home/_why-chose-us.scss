@@ -1,4 +1,4 @@
-.why-chose-us {
+.why-choose-us {
     padding: 125px 0;
     background: $dark-grey;
     color: $white;
@@ -12,40 +12,38 @@
 
     }
 
-    &__img {
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        background: $grey;
-        display: inline-block;
-
-    }
-
-    &__card {
+    
+    .why-choose-card {
         text-align: center;
-
-    }
-
-    &__title {
-        padding: 35px 0;
-        font-size: 24px;
-        font-family: $roboto;
-        font-weight: 700;
-
-    }
-
-    &__title:hover {
-        color:$green;
-
-    }
-
-    &__text {
-        font-size: 15px;
-        font-family: $roboto;
-        font-weight: 400;
+    
+        &__img {
+            width: 113px;
+            height: 113px;
+            border-radius: 50%;
+            background: $grey;
+            display: inline-block;
+        }
+    
+        &__title {
+            padding: 35px 0;
+            font-size: 24px;
+            font-family: $roboto;
+            font-weight: 700;
+    
+        }
+    
+        &__title:hover {
+            color:$green;
+    
+        }
+    
+        &__text {
+            font-size: 15px;
+            font-family: $roboto;
+            font-weight: 400;
+        }
     }
 }
-
 
 
 
