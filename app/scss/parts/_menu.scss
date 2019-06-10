@@ -1,2 +1,17 @@
 @import "../base/variables";
 @import "../base/mixins";
+
+.menu-market {
+    @include default-text(14px, 500);
+    padding: 23px 0 25px;
+    color: $white-1;
+    line-height: 30px;
+}
+
+.list__item {
+    margin-right: 40px;
+}
+
+.menu-market_bg-black {
+    background-color: $dark-grey;
+}
