@@ -3,6 +3,11 @@
     padding-top: 120px;
     color: #ffffff;
 
+    .row {
+        &:first-child {
+            margin-bottom: 100px;
+        }
+    }
 
 &__element {
         width: 50px;
@@ -45,15 +50,27 @@ img {
      font-family: roboto-regular;
      display: flex;
      align-items: center;
+     margin-left: 15px;
+     position: relative;
 
-img {
-    padding-right: 10px;
-}
+
+     &:before {
+        content: '';
+      position: absolute;
+      left: -20px;
+      top: 8px;
+      width: 9px;
+      height: 9px;
+      border-top: 2px solid $green;
+      border-right: 2px solid $green;
+      transform: rotate(45deg);
+    }
 
  }
 
 &__sprite {
     margin-bottom: 40px;
+    display: flex;
 }
 
 &__icon {
@@ -74,6 +91,26 @@ img {
     background: #2f3c43;
     border: none;
 }
+
+&__copyright {
+    text-align: center;
+    border-top: 1px solid #424d53;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+&__form {
+    font-family: roboto-regular;
+    font-size: 20px;
+
+h6 {
+    margin-bottom: 13px;
+}   
+
+  }
+
+
  
 
 
