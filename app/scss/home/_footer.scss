@@ -68,7 +68,7 @@ img {
 
  }
 
-&__sprite {
+.social-networks {
     margin-bottom: 40px;
     display: flex;
 }
@@ -81,7 +81,7 @@ img {
     width: 36px;
     height: 36px;
     background: $green;
-    bottom: 108px;
+    bottom: 103px;
     position: absolute;
     right: 16px;
     
@@ -102,10 +102,13 @@ img {
 
 &__form {
     font-family: roboto-regular;
-    font-size: 20px;
+    
 
 h6 {
     margin-bottom: 13px;
+    font-size: 20px;
+    
+
 }   
 
   }
