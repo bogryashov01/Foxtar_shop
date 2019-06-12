@@ -26,3 +26,6 @@ roboto-light;
 roboto-medium;
 roboto-regular;
 fontawesome <https://use.fontawesome.com/releases/v5.8.1/css/all.css>;
+
+#Price_range
+used Ion.RangeSlider plugin <http://ionden.com/a/plugins/ion.rangeSlider/start.html>
