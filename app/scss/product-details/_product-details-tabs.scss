@@ -17,20 +17,11 @@
 }
 
 .tabs {  
-    color: #969696;
-    
-    
+        
     &__list {
         display: flex;
         flex-direction: row;       
-    }
-
-    &_hover {
-
-        &:hover {
-            color:  #263238;
-        }        
-    }
+    }        
 
     &__item {
         padding-top: 23px;
@@ -43,7 +34,7 @@
         flex-grow: 1;
         text-align: center;
 
-        &:hover {
+        &.ui-state-active {
             color: #263238;
             border-bottom: 3px solid #8bc34a;
         }
