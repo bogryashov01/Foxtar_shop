@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Upload products</title>
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="sprite/sprite.css">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+    <section class="upload-products">
+        <div class="container">
+            <form class="upload-item">
+                <div class="upload-item__title">
+                    <h3 class="upload-item__first-title">
+                        Upload Your Item
+                    </h3>
+                </div>
+                <fieldset class="upload-item__form-area">
+                    <div class="upload-item__form-group form-group">
+                        <label class="upload-item__label" for="FormControlSelect">Select Categories<sup class="upload-item__label_mark">*</sup></label>
+                        <select class="upload-item__field form-control" id="FormControlSelect" placeholder="Select">
+                            <option selected>Select</option>
+                            <option>LEGO Friends</option>
+                            <option>LEGO Overwatch</option>
+                            <option>LEGO NINJAGO</option>
+                            <option>LEGO City</option>
+                            <option>LEGO Boost</option>
+                        </select>
+                    </div>                    
+                    <div class="upload-item__form-group form-group">
+                        <label class="upload-item__label" for="FormControlProductName">Product Name<sup class="upload-item__label_mark">*</sup></label>
+                        <input class="upload-item__field form-control" type="text" id="FormControlProductName" placeholder="Enter your product name here...">
+                    </div>
+                    <div class="upload-item__form-group upload-item__form-group_up form-group">
+                        <label class="upload-item__label" for="FormControlProductDescription">Product Description<sup class="upload-item__label_mark">*</sup></label>
+                        <textarea class="upload-item__field form-control" id="FormControlProductDescription" rows="6" placeholder="Type your text here"></textarea>
+                    </div>
+                    <div class="upload-item__form-group form-group">
+                        <label class="upload-item__label" for="FormControlMainFile">Upload Main File<sup class="upload-item__label_mark">*</sup></label>
+                        <div class="upload-item__choose-file">
+                            <input type="file" class="upload-item__field form-control-file" id="FormControlMainFile">
+                        </div>
+                    </div>
+                    <div class="upload-item__form-group form-group">
+                        <label class="upload-item__label" for="FormControlScreenshots">Upload Screeshots<sup class="upload-item__label_mark">*</sup></label>
+                        <div class="upload-item__choose-file">
+                            <input type="file" class="upload-item__field form-control-file" id="FormControlScreenshots">
+                        </div>
+                    </div>
+                    <div class="upload-item__form-group form-group">
+                        <label class="upload-item__label" for="FormControlFileIncluded">File Included<sup class="upload-item__label_mark">*</sup></label>
+                        <select class="upload-item__field form-control" id="FormControlFileIncluded" placeholder="Select">
+                            <option selected>Select File Type<sup class="upload-item__label_mark">*</sup></option>
+                            <option>*.doc</option>
+                            <option>*.txt</option>
+                            <option>*.jpg</option>
+                            <option>*.tif</option>
+                            <option>*.bmp</option>
+                        </select>
+                    </div>
+                    <div class="upload-item__form-group form-group">
+                        <label class="upload-item__label" for="FormControlFileDimensions">File Dimensions<sup class="upload-item__label_mark">*</sup></label>
+                        <input class="upload-item__field form-control" type="text" id="FormControlFileDimensions" placeholder="Enter the item dimentions here...">
+                    </div>
+                    <div class="upload-item__form-group form-group">
+                        <label class="upload-item__label" for="FormControlItemTags">Item Tags<sup class="upload-item__label_mark">*</sup></label>
+                        <input class="upload-item__field form-control" type="text" id="FormControlItemTags" placeholder="Enter Tag here...">
+                    </div>
+                </fieldset>
+                <div class="upload-item__title">
+                    <h3 class="upload-item__first-title">
+                        Set Your Price (US$)
+                    </h3>
+                </div>
+                <fieldset class="upload-item__form-area">
+                    <div class="upload-item__form-group form-group">
+                        <label class="upload-item__label" for="FormControlRegularLicense">Regular License<sup class="upload-item__label_mark">*</sup></label>
+                        <input class="upload-item__field form-control" type="text" id="FormControlRegularLicense" placeholder="$00.00">
+                    </div>
+                    <div class="upload-item__form-group form-group">
+                        <label class="upload-item__label" for="FormControlExtendedLicense">Extended License<sup class="upload-item__label_mark">*</sup></label>
+                        <input class="upload-item__field form-control" type="text" id="FormControlRegularLicense" placeholder="$00.00">
+                    </div>
+                    <button type="submit" class="upload-item__btn btn btn-primary">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

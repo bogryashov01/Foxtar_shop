@@ -1,9 +1,12 @@
 @import "../base/variables";
 @import "../base/mixins";
+<<<<<<< HEAD
 @import "../base/fonts";
 
 
 // poster-mini start
+=======
+>>>>>>> bee2858370f6851c3a30e36038198b0e9c1a2254
 
 .poster {
     height: 532px;
@@ -11,10 +14,13 @@
     display: flex;
     align-items: center;
 
+<<<<<<< HEAD
     &_mini {        
         height: 230px;
     }       
 
+=======
+>>>>>>> bee2858370f6851c3a30e36038198b0e9c1a2254
     &__bg-img {
         position: absolute;
         top: 0;
@@ -24,15 +30,19 @@
         z-index: -2;
     }
 
+<<<<<<< HEAD
     &__bg-img_mini {        
         background-size: cover;        
     }
 
+=======
+>>>>>>> bee2858370f6851c3a30e36038198b0e9c1a2254
     &__mask {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
+<<<<<<< HEAD
         height: 100%;       
         z-index: -1;
     }
@@ -44,6 +54,16 @@
     &__content {
         margin: 0 auto;
         color: #ffffff;
+=======
+        height: 100%;
+        opacity: 0.5;
+        z-index: -1;
+    }
+
+    &__content {
+        margin: 0 auto;
+        color: $white-1;
+>>>>>>> bee2858370f6851c3a30e36038198b0e9c1a2254
         text-align: center;        
     }
 
@@ -56,6 +76,7 @@
 
     &__description {
         @include default-text(20px, 500);
+<<<<<<< HEAD
         line-height: 30px;       
         margin-bottom: 50px;
     }
@@ -63,6 +84,11 @@
     &__description_mini {               
         margin-bottom: 25px;
     }
+=======
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+>>>>>>> bee2858370f6851c3a30e36038198b0e9c1a2254
 }
 
 .search {
@@ -70,12 +96,17 @@
     width: 670px;
     margin: auto;
     box-shadow: 0 1px 10px rgba(124, 178, 64, 0.75);
+<<<<<<< HEAD
     background-color: #ffffff;
+=======
+    background-color: $white-1;
+>>>>>>> bee2858370f6851c3a30e36038198b0e9c1a2254
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 7px;
+<<<<<<< HEAD
 
 
     &_poster-mini {        
@@ -85,6 +116,12 @@
 
     &__box {
         @include default-text(14px, 500);        
+=======
+    
+    &__box {
+        @include default-text(14px, 500);
+        line-height: 30px;
+>>>>>>> bee2858370f6851c3a30e36038198b0e9c1a2254
         letter-spacing: 0.7px;
         color: #90a4ae;
         flex-grow: 1;
@@ -94,15 +131,26 @@
         position: absolute; 
         top: 0;
         right: 0;
+<<<<<<< HEAD
         width: 80px;
         padding: 0 20px;
+=======
+        width: 60px;
+        padding: 0 20px 0 0;
+>>>>>>> bee2858370f6851c3a30e36038198b0e9c1a2254
         font-size: 20px;
         height: 100%;
         border: none;
         color: #78909c;
         border-radius: 0 7px 7px 0;
+<<<<<<< HEAD
         cursor: pointer;           
     }   
 }
 
 // poster-mini end
+=======
+        cursor: pointer;        
+    }
+}
+>>>>>>> bee2858370f6851c3a30e36038198b0e9c1a2254
