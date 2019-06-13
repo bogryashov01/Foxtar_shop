@@ -2,6 +2,7 @@
    width: 443px;
    height: 409px;
    border: 1px solid black;
+   position: relative;
 
 &__picture {
     width: 100%;
@@ -10,6 +11,12 @@
 
 
 }   
+
+&__image {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
 
 &__description {
     display: flex;
@@ -20,6 +27,7 @@
 
 .product__name {
     font-size: 18px;
+    
 }
 .product__model {
     font-size: 14px;
@@ -30,15 +38,27 @@
 
 
 &__footer {
-    padding: 20px 0;
     border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px;
+
 
 .footer__logo {
     border-radius: 50%;
     width: 30px;
     height: 30px;
     background-color:grey;
+
+.logo__name {
+    font-family: $roboto;
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 40px;
 }
+}
+
 }
 
 
