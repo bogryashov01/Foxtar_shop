@@ -19,24 +19,27 @@
     }
 
 &__headlene {
-    font-family: raleway-bold;
+    font-family: "raleway-bold",Helvetica, Arial, sans-serif;
     font-size: 22px;
     margin-bottom: 30px;
     text-transform: capitalize;
+    font-weight: bold;
 }
 
 &__description {
     padding-bottom: 30px;
-    font-family: roboto-regular;
+    font-family: "roboto-regular",Helvetica, Arial, sans-serif;
     font-size: 15px;
+    font-weight: normal;
 
 }
 
 &__container  {
-    font-family: lato-semibold;
+    font-family: "lato-semibold",Helvetica, Arial, sans-serif;
     font-size: 14px;
     align-items: end;
     margin-bottom: 30px;
+    font-weight: 600;
 
 img {
         padding-right: 10px;
@@ -47,11 +50,12 @@ img {
 
  &__items {
      margin-bottom: 25px;
-     font-family: roboto-regular;
+     font-family: "roboto-regular",Helvetica, Arial, sans-serif;
      display: flex;
      align-items: center;
      margin-left: 15px;
      position: relative;
+     font-weight: normal;
 
 
      &:before {
@@ -98,15 +102,22 @@ img {
     height: 70px;
     display: flex;
     align-items: center;
+
+p {
+    font-family: "roboto-regular",Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+}    
 }
 
 &__form {
-    font-family: roboto-regular;
+    font-family: "roboto-regular",Helvetica, Arial, sans-serif;
     
 
 h6 {
     margin-bottom: 13px;
     font-size: 20px;
+    font-weight:normal;
     
 
 }   
