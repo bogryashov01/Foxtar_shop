@@ -14,6 +14,9 @@ $blue:#42a5f5;
 $roboto:'Roboto',Helvetica,Arial,sans-serif;
 $opensans:'Open-sans',Helvetica,Arial,sans-serif;
 
+#Price_range
+used Ion.RangeSlider plugin <http://ionden.com/a/plugins/ion.rangeSlider/start.html>
+
 #Upload-items
 used Bootstrap forms <https://bootstrap-4.ru/docs/4.0/components/forms/>
 
