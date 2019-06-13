@@ -1,6 +1,4 @@
 .product-card {
-   width: 443px;
-   height: 409px;
    border: 1px solid black;
    position: relative;
 
@@ -8,17 +6,16 @@
     width: 100%;
     height: 250px;
     background-color: grey;
-
-
+    object-fit: cover;
 }   
 
-&__image {
+&__label {
     position: absolute;
     left: 0;
     top: 0;
 }
 
-&__description {
+&__body {
     display: flex;
     justify-content: space-between;
     padding: 15px 30px;
@@ -37,27 +34,33 @@
 }
 
 
-&__footer {
+.seller {
     border-top: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 27px;
 
+&__info {
+    display: flex;
+    align-items: center;
+}    
 
-.footer__logo {
+
+&__logo {
     border-radius: 50%;
     width: 30px;
     height: 30px;
     background-color:grey;
+}
 
-.logo__name {
+&__name {
     font-family: $roboto;
     font-weight: normal;
     font-size: 14px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
-}
+
 
 }
 
