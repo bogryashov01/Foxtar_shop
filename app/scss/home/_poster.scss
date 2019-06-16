@@ -1,11 +1,22 @@
 @import "../base/variables";
 @import "../base/mixins";
+@import "../base/fonts";
+
+
+// poster-mini start
+
+
 
 .poster {
     height: 532px;
     position: relative;
     display: flex;
     align-items: center;
+
+
+    &_mini {        
+        height: 230px;
+    }       
 
     &__bg-img {
         position: absolute;
@@ -16,19 +27,27 @@
         z-index: -2;
     }
 
+
+    &__bg-img_mini {        
+        background-size: cover;        
+    }
+
     &__mask {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
-        opacity: 0.5;
+        height: 100%;       
         z-index: -1;
+    }
+
+    &__mask_mini {       
+        background-size: contain;        
     }
 
     &__content {
         margin: 0 auto;
-        color: $white-1;
+        color: #ffffff;
         text-align: center;        
     }
 
@@ -41,8 +60,12 @@
 
     &__description {
         @include default-text(20px, 500);
-        line-height: 30px;
+        line-height: 30px;       
         margin-bottom: 50px;
+    }
+
+    &__description_mini {               
+        margin-bottom: 25px;
     }
 }
 
@@ -51,16 +74,22 @@
     width: 670px;
     margin: auto;
     box-shadow: 0 1px 10px rgba(124, 178, 64, 0.75);
-    background-color: $white-1;
+    background-color: #ffffff;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 7px;
-    
+
+
+
+    &_poster-mini {        
+        box-shadow: 0 1px 10px rgba(100, 100, 100, 0.75);        
+        padding: 23px 27px;        
+    }
+
     &__box {
-        @include default-text(14px, 500);
-        line-height: 30px;
+        @include default-text(14px, 500);        
         letter-spacing: 0.7px;
         color: #90a4ae;
         flex-grow: 1;
@@ -70,13 +99,19 @@
         position: absolute; 
         top: 0;
         right: 0;
-        width: 60px;
-        padding: 0 20px 0 0;
+
+        width: 80px;
+        padding: 0 20px;
+
         font-size: 20px;
         height: 100%;
         border: none;
         color: #78909c;
         border-radius: 0 7px 7px 0;
-        cursor: pointer;        
-    }
+
+        cursor: pointer;           
+    }   
 }
+
+// poster-mini end
+
