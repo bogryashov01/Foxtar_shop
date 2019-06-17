@@ -2,50 +2,45 @@
     padding: 120px 0;
     background-color: #fff;
 
-&__headline {
-    font-family: $roboto;
-    font-size: 36px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 60px;
-    text-transform: capitalize;
-}    
-
-.slick-list {
-    margin-bottom: 70px;
-}
-
-.slick-dots  {
-    display: flex;
-    justify-content: center;
-
-li {
-    margin-right: 10px;
-
-:hover {
-        background-color:$green;
+    &__headline {
+        font-family: $roboto;
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 60px;
+        text-transform: capitalize;
     }    
 
+    .slick-list {
+        margin-bottom: 70px;
+    }
 
-    
+    .slick-dots  {
+        display: flex;
+        justify-content: center;
 
-button {
-    font-size: 0px;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    color: #e8e8e8;
+        li {
+            margin-right: 10px;          
 
+            button {
+                font-size: 0px;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                color: #e8e8e8;
+            }
 
+            &:hover button {
+                background-color: $green;
+            } 
 
+            &.slick-active button {
+                background-color: $green;
+            }
+        }    
+    }
 }
-}    
-}
 
-
-
-
-}
 .product-card {
     border: 1px solid black;
     position: relative;
