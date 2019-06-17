@@ -1,0 +1,74 @@
+@import "../base/variables";
+@import "../base/mixins";
+@import "../base/components";
+@import "../base/extensions";
+@import "../base/fonts";
+
+.upload-item {
+    border: 1px solid #d7d7d7;
+    
+    &__title {
+        font-family: 'roboto-medium', Helvetica, Arial, sans-serif;
+        font-size: 24px;
+        color: #263238;
+        line-height: 60px;
+        padding: 20px 30px;
+    }
+
+    &__form-area {
+        padding: 55px 50px 70px 45px;
+        border-top: 1px solid #d7d7d7;       
+    }
+
+    &__form-group {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        
+        &_up {
+            align-items: flex-start;
+        }
+    }
+
+    &__label {
+        font-family: 'roboto-regular', Helvetica, Arial, serif;
+        font-size: 15px;
+        font-weight: 400;        
+        color: #444444;        
+        flex-basis: 175px;
+        text-transform: capitalize;
+        
+        &_mark {
+            font-family: 'roboto-regular', Helvetica, Arial, serif;
+            font-size: 24px;
+            font-weight: 400; 
+            color: #729e4c;
+        }        
+    }
+    
+    &__choose-file {
+        border: 1px solid #d7d7d7;
+        flex-grow: 1;
+        height: auto;
+        background-color: #f9f9f9;
+        width: 100%;
+    }
+    
+    &__field {
+        flex-grow: 1;
+        border-radius: 0px;
+        padding: 14px 17px;
+        height: auto;
+        color: #707070;
+    }
+
+    &__btn {
+        background-color: #8bc34a;
+        margin-left: 148px;
+        border-radius: 0px;
+        border: 0px;
+        padding: 15px 35px;    
+        margin-top: 25px;
+    }
+
+}
