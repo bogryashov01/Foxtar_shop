@@ -8,12 +8,14 @@
     <title>Foxtar</title>
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="sprite/sprite.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.min.css">
 </head>
 
 <body>
+    <!--HEADER start-->
+    <i class="fab fa-500px"></i>
     <header class="header">
         <div class="header__container">
             <a href="#" class="logo header__logo">
@@ -24,6 +26,49 @@
                     <p><span>Need help?</span>Talk to an expert:
                         <a href="#">+985 985 954854</a>
                     </p>
+                    <div class="alerts header__alerts">
+                        <div class="dropdown">
+                            <button class="alerts__button button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Notifications
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="button__counter">8</span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right my-goods" aria-labelledby="dropdownMenuButton">
+                                <div class="my-goods__body">
+                                    <div class="my-goods__my-goods-card my-goods-card">
+                                        <div class="my-goods-card__img">
+                                            <img src="img/header/lego1.png" alt="product">
+                                        </div>
+                                        <div class="my-goods-card__body">
+                                            <h6 class="my-goods-card__title">LEGO Simpsons</h6>
+                                            <span class="my-goods-card__label">WordPress</span>
+                                            <span class="my-goods-card__price">$579</span>
+                                        </div>
+                                    </div>                       
+                                    <div class="my-goods__my-goods-card my-goods-card">
+                                        <div class="my-goods-card__img">
+                                            <img src="img/header/lego2.png" alt="product">
+                                        </div>
+                                        <div class="my-goods-card__body">
+                                            <h6 class="my-goods-card__title">LEGO NINJAGO</h6>
+                                            <span class="my-goods-card__label">WordPress</span>
+                                            <span class="my-goods-card__price">$539</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="my-goods__footer">
+                                    <div class="my-goods__price price">
+                                        <span class="my-goods__Total">Total</span>
+                                        <span class="my-goods__sum">$1118</span>
+                                    </div>
+                                    <div class="my-goods__buttons">
+                                        <button class="my-goods__Cart">Go to Cart</button>
+                                        <button class="my-goods__Checkout">Go to Checkout</button> 
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
                     <div class="buttons">
                         <button class="header-info__button-login">Login</button>
                         <button class="header-info__button-register">Register</button>
@@ -32,6 +77,7 @@
             </div>
         </div>
     </header>
+    <!--HEADER end-->
     <!-- menu-market start -->
     <section class="menu-market menu-market_bg-black">
         <div class="container">
@@ -105,11 +151,13 @@
         
         
         
-
+    <script src="https://kit.fontawesome.com/936a744753.js"></script>
     </section>
     <!--why-choose-us end-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/libs.min.js"></script>
+    <!--<script src="js/libs.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
 
