@@ -5,6 +5,7 @@ $(document).ready(function(){
     slidesToScroll: 4,
     adaptiveHeight: false,
     dots: true,
+    arrows: false,
   });
   
 });
