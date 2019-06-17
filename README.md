@@ -29,6 +29,8 @@ fontawesome <https://use.fontawesome.com/releases/v5.8.1/css/all.css>;
 
 #Price_range
 used Ion.RangeSlider plugin <http://ionden.com/a/plugins/ion.rangeSlider/start.html>
+<<<<<<< HEAD
+=======
 
 #Footer
 mesh is used bootstrap;
@@ -71,3 +73,4 @@ is used sprite;
             </div>
         </div>
     </div>
+>>>>>>> 96aa5018dc75e0831c7d550a6a8ec23b567811aa
