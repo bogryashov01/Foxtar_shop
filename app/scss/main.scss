@@ -6,9 +6,16 @@
 @import "base/extensions";
 @import "parts/header";
 @import "home/why-chose-us";
+@import "home/trending-products"; 
+@import "home/footer";
+
+// poster
+@import "home/poster";
+
+// all-new-items
+@import "all-new-items/price_range";
+
 // _form
 @import "upload-products/form";
 // menu
 @import "parts/menu";
-// poster
-@import "home/poster";
