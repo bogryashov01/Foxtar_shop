@@ -14,6 +14,9 @@ $blue:#42a5f5;
 $roboto:'Roboto',Helvetica,Arial,sans-serif;
 $opensans:'Open-sans',Helvetica,Arial,sans-serif;
 
+#Price_range
+used Ion.RangeSlider plugin <http://ionden.com/a/plugins/ion.rangeSlider/start.html>
+
 #Upload-items
 used Bootstrap forms <https://bootstrap-4.ru/docs/4.0/components/forms/>
 
@@ -26,11 +29,6 @@ roboto-light;
 roboto-medium;
 roboto-regular;
 fontawesome <https://use.fontawesome.com/releases/v5.8.1/css/all.css>;
-
-#Price_range
-used Ion.RangeSlider plugin <http://ionden.com/a/plugins/ion.rangeSlider/start.html>
-<<<<<<< HEAD
-=======
 
 #Footer
 mesh is used bootstrap;
@@ -73,4 +71,3 @@ is used sprite;
             </div>
         </div>
     </div>
->>>>>>> 96aa5018dc75e0831c7d550a6a8ec23b567811aa
