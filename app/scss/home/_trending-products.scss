@@ -54,7 +54,6 @@ button {
  &__picture {
      width: 100%;
      height: 250px;
-     background-color: grey;
      object-fit: cover;
  }   
  
@@ -70,6 +69,8 @@ button {
      padding: 15px 30px;
      align-items: center;
      font-family: roboto-medium;
+     border-top: 1px solid black;
+     
  
  .product__name {
      font-size: 18px;
