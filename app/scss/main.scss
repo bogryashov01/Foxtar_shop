@@ -5,18 +5,20 @@
 @import "base/reset";
 @import "base/extensions";
 @import "home/why-chose-us";
+@import "home/trending-products"; 
+@import "home/footer";
+
+// poster
+@import "home/poster";
+
+// all-new-items
+@import "all-new-items/price_range";
+
 // _form
 @import "upload-products/form";
 // menu
 @import "parts/menu";
-// poster
-@import "home/poster";
-// all-new-items
-@import "all-new-items/all-new-items";
+
 @import "home/tutorial.scss";
-@import "all-new-items/price_range";
-// footer
-@import "home/footer";
-@import "home/trending-products";
-// _form
-@import "upload-products/form";
+// product-author
+@import "product-details/product-information"
