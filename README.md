@@ -14,6 +14,10 @@ $blue:#42a5f5;
 $roboto:'Roboto',Helvetica,Arial,sans-serif;
 $opensans:'Open-sans',Helvetica,Arial,sans-serif;
 
+#Footer
+mesh is used bootstrap;
+is used sprite;
+
 #Price_range
 used Ion.RangeSlider plugin <http://ionden.com/a/plugins/ion.rangeSlider/start.html>
 
