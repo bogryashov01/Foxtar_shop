@@ -1,0 +1,42 @@
+@import "base/variables";
+@import "base/components";
+@import "base/mixins";
+@import "base/fonts";
+
+// product-information start
+
+.product-information {
+    text-transform: capitalize;
+    padding: 25px 30px 35px;
+    background-color: #ffffff;    
+
+    &__title {
+        font-family: 'roboto-bold', Helvetica, Arial, sans-serif;
+        color: #263238;        
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 23px;       
+    }
+
+    &__content {
+        border-top: 1px solid #dde3e8;
+        padding-top: 25px;      
+    }
+    
+    &__name {
+        margin-bottom: 23px;
+        color: #263238;           
+        font-family: 'roboto-medium', Helvetica, Arial, sans-serif;
+        font-size: 14px; 
+        font-weight: 500;        
+    }
+
+    &__description {
+        color: #70838d;
+        font-family: 'roboto-regular', Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 400;       
+    }   
+}
+
+// product-information end
