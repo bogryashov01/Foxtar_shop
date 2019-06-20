@@ -8,8 +8,7 @@
 
 .product-details {
 
-    &__tabs {
-        height: 323px;
+    &__tabs {        
         color: #969696;
         background-color: #ffffff;
         margin-bottom: 52px;
@@ -25,7 +24,7 @@
 
     &__item {
         padding-top: 23px;
-        padding-bottom: 23px;
+        padding-bottom: 23px;       
         border: 1px solid #dcdcdc;
         font-family: 'roboto-medium', Helvetica, Arial, sans-serif;
         font-size: 16px;
@@ -40,6 +39,10 @@
         }
     }
 
+    &__link {
+        padding: 23px 65px;
+    }
+
     &__content {
         padding: 38px 36px 68px;
         color: #707070;
@@ -48,8 +51,7 @@
         font-weight: 400;
         line-height: 36px;
         border: 1px solid #dcdcdc;
-        background-color: #ffffff;
-        height: 264px;
+        background-color: #ffffff;       
     }
 }
 
