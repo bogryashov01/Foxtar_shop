@@ -6,6 +6,8 @@
 
 &__picture {
     border: 1px solid #dcdcdc;
+    object-fit: cover;
+    width: 100%;
 }
 
 &__description {
