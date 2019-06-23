@@ -6,12 +6,44 @@
     padding: 23px 0 25px;
     color: $white-1;
     line-height: 30px;
+    margin-top: 80px;
 }
 
-.list__item {
-    margin-right: 40px;
+.slicknav_menu {
+    display: none;
+}
+
+.list {
+
+    &__item {
+        margin-right: 40px;
+        list-style: none;
+        display: inline-block;
+    }
 }
 
 .menu-market_bg-black {
     background-color: $dark-grey;
 }
+
+
+// menu adaptation start
+
+@media (max-width: 991px) {
+    .list {
+        display: none;
+    }
+
+    .slicknav_menu {
+        display: block;        
+        margin: 20px 20px 0 0;
+        background-color: $dark-grey;
+        text-align: center;
+    }
+
+    .menu-market {
+        padding: 5px 0;
+    }
+}
+
+// menu adaptation end

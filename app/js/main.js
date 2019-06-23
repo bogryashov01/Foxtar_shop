@@ -21,4 +21,10 @@ $(function () {
       arrows: false,
     });
   }
+
+  $('#menu-nav').slicknav({
+    appendTo: '.menu-market',
+    label:''
+  });
+
 });
