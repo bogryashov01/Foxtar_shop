@@ -1,0 +1,85 @@
+@import "../base/variables";
+@import "../base/mixins";
+@import "../base/components";
+@import "../base/extensions";
+@import "../base/fonts";
+
+// product-details tabs start
+
+.product-details {
+
+    &__tabs {        
+        color: #969696;
+        background-color: #ffffff;
+        margin-bottom: 52px;
+    }
+}
+
+.tabs {  
+        
+    &__list {
+        display: flex;
+        flex-direction: row;       
+    }        
+
+    &__item {
+        padding-top: 23px;
+        padding-bottom: 23px;       
+        border: 1px solid #dcdcdc;
+        font-family: 'roboto-medium', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #70838d;
+        flex-grow: 1;
+        text-align: center;
+
+        &.ui-state-active {
+            color: #263238;
+            border-bottom: 3px solid #8bc34a;
+        }
+    }
+
+    &__link {
+        padding: 23px 65px;
+    }
+
+    &__content {
+        padding: 38px 36px 68px;
+        color: #707070;
+        font-family: 'roboto-regular', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 36px;
+        border: 1px solid #dcdcdc;
+        background-color: #ffffff;       
+    }
+}
+
+.content {
+
+    &__list {
+        column-count: 3;
+        column-gap: 35px;        
+    }
+
+    &__item {
+        position: relative;
+
+        &:before {
+            content: '';
+            position: absolute;
+            left: -15px;
+            top: 15px;
+            width: 5px;
+            height: 5px;
+            border-top: 1px solid #77a054;
+            border-right: 1px solid #77a054;
+            transform: rotate(45deg);
+        }
+    }
+}
+
+
+
+
+// product-details tabs end

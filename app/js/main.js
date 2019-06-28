@@ -8,8 +8,7 @@ $(function () {
       to: 600,
       prefix: "$"        
     }); 
-  }
-
+  };
 
   if($(".trending-products__slider").length) {
     $('.trending-products__slider').slick({
@@ -20,5 +19,9 @@ $(function () {
       dots: true,
       arrows: false,
     });
-  }
+  };
+
+  if($("#tabs").length) {
+    $( "#tabs" ).tabs();
+  };
 });
