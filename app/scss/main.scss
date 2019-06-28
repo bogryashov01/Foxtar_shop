@@ -4,21 +4,21 @@
 @import "base/fonts";
 @import "base/reset";
 @import "base/extensions";
+@import "parts/header";
 @import "home/why-chose-us";
 @import "home/trending-products"; 
 @import "home/footer";
-
+@import "home/become-author";
 // poster
 @import "home/poster";
-
 // all-new-items
 @import "all-new-items/price_range";
-
 // _form
 @import "upload-products/form";
 // menu
 @import "parts/menu";
-
+// product-details
+@import "product-details/product-details-tabs";
 // product-author
 @import "product-details/product-author";
 // product-author

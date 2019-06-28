@@ -1,0 +1,50 @@
+.become-author {
+    padding: 130px 0;
+    background-color: #f4f6f5;
+
+
+&__inner {
+    background-color: #b5b5b5;
+    padding: 110px 220px;
+
+}   
+
+
+
+&__about {
+    max-width: 652px;
+    padding: 70px;
+    background-color: #8bc34a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+
+p {    
+
+    font-size: 20px;
+    font-family: 'roboto-regular',Arial, Helvetica, sans-serif;
+    font-weight: normal;
+
+span {
+  font-weight: bold;
+}    
+}
+    
+    
+ 
+
+
+
+button {
+    padding: 16px 75px;
+    background-color: #fff;
+    font-family: "roboto-regular",Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+}    
+}
+
+}
