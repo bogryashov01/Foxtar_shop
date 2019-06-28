@@ -1,0 +1,40 @@
+.top-sellers{
+   border: 1px solid #dcdcdc;
+   background-color: #ffffff;
+   padding: 25px 30px 30px;
+
+&__headline  {
+    font-family: "roboto-bold",Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}   
+
+
+&__border {
+    border-bottom: 1px solid #dde3e8;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+    
+
+}   
+
+&__btn {
+    width: 100%;
+    padding: 7px 0;
+    background-color: $green;
+    color: #ffffff;
+}   
+
+&__view {
+    font-family: "roboto-medium",Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+
+ }    
+
+
+
+
+
+
+}
