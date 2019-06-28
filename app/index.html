@@ -8,12 +8,84 @@
     <title>Foxtar</title>
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="sprite/sprite.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.min.css">
 </head>
 
 <body>
+    <!--HEADER start-->
+    <i class="fab fa-500px"></i>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo header__logo">
+                <img class="logo__img" src="./img/logo.png" alt="logo">
+            </a>
+            <div class="info header__info">
+                <div class="info__content">
+                    <p><span>Need help?</span>Talk to an expert:
+                        <a href="#">+985 985 954854</a>
+                    </p>
+                    <div class="alerts header__alerts">
+                        <div class="dropdown">
+                            <button class="alerts__button button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Notifications
+                                <i class="fas fa-shopping-cart alerts__icon"></i>
+                                <span class="button__counter">8</span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right my-goods" aria-labelledby="dropdownMenuButton">
+                                <div class="my-goods__body">
+                                    <div class="my-goods__my-goods-card my-goods-card">
+                                        <a href="#">
+                                            <div class="my-goods-card__img">
+                                                <img src="img/header/lego1.png" alt="product">
+                                            </div>
+                                        </a>
+                                        <div class="my-goods-card__body">
+                                            <a href="#"><h6 class="my-goods-card__title">LEGO Simpsons</h6></a>
+                                            <span class="my-goods-card__label">WordPress</span>
+                                            <span class="my-goods-card__price">$579</span>
+                                        </div>
+                                    </div>                       
+                                    <div class="my-goods__my-goods-card my-goods-card">
+                                        <a href="#">
+                                            <div class="my-goods-card__img">
+                                                <img src="img/header/lego2.png" alt="product">
+                                            </div>
+                                        </a>
+                                        <div class="my-goods-card__body">
+                                            <a href="#"><h6 class="my-goods-card__title">LEGO NINJAGO</h6></a>
+                                            <span class="my-goods-card__label">WordPress</span>
+                                            <span class="my-goods-card__price">$539</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="my-goods__footer">
+                                    <div class="my-goods__price price">
+                                        <span class="price__total">Total</span>
+                                        <span class="price__sum">$1118</span>
+                                    </div>
+                                    <div class="my-goods__buttons">
+                                        <button class="my-goods__cart">Go to Cart</button>
+                                        <button class="my-goods__checkout">Go to Checkout</button> 
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="header-info__button-login">Login</button>
+                        <button class="header-info__button-register">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--HEADER end-->
     <!-- menu-market start -->
     <section class="menu-market menu-market_bg-black">
         <div class="container">
@@ -35,64 +107,1505 @@
 
     <!-- poster start -->
     <section class="poster">
+        <div class="poster__bg">
+            <img src="img/poster/poster__bg-img.jpg" alt="" class="poster__bg-img poster__bg-img_mini">
+            <img src="img/poster/poster__mask.png" alt="" class="poster__mask poster__mask_mini">
+        </div>
         <div class="container">
-            <img src="img/poster/poster__bg-img.jpg" alt="" class="poster__bg-img">
-            <img src="img/poster/poster__mask.jpg" alt="" class="poster__mask">
             <div class="poster__content">
                 <h1 class="poster__title">Welcome To LEGO Market Place</h1>
                 <p class="poster__description">Premium Construction Toys, Various Parts and Many More ...</p>
             </div>
-            <form class="search" action="" method="get">
+            <form class="search search_poster-mini" action="" method="get">
                 <input type="search" placeholder="Search Your Keywords ..." class="search__box">
                 <button type="submit" class="btn search__icon">
                     <i class="fas fa-search"></i>
-                </button>                
+                </button>
             </form>
         </div>
     </section>
     <!-- poster end -->
 
+    <!--why-choose-us start-->
     <section class="why-choose-us">
         <div class="container">
             <h3 class="why-choose-us__headline">Why You Choose Foxtar Market Place ?</h3>
             <div class="d-flex justify-content-around">
                 <div class="col col-4 why-choose-card">
-                    <div class="why-choose-card__img">
-
-                    </div>
+                    <div class="why-choose-card__img"></div>
                     <a class="why-choose-card__title" href="#">Easily Buy & Sell</a>
-                    <p class="why-choose-card__text">Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the
+                    <p class="why-choose-card__text">Dorem Ipsum is simply dummy text of the pring and typesetting
+                        industry. Lorem Ipsum has been the
                         industry's standaum.</p>
                 </div>
                 <div class="col col-4 why-choose-card">
-                    <div class="why-choose-card__img">
-
-                    </div>
+                    <div class="why-choose-card__img"></div>
                     <a class="why-choose-card__title" href="#">Quality Products</a>
-                    <p class="why-choose-card__text">Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the
+                    <p class="why-choose-card__text">Dorem Ipsum is simply dummy text of the pring and typesetting
+                        industry. Lorem Ipsum has been the
                         industry's standaum.</p>
                 </div>
                 <div class="col col-4 why-choose-card">
-                    <div class="why-choose-card__img">
-
-                    </div>
+                    <div class="why-choose-card__img"></div>
                     <a class="why-choose-card__title" href="#">100% Secure Payment</a>
-                    <p class="why-choose-card__text">Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum has been the
-                    industry's standaum.</p>
+                    <p class="why-choose-card__text">Dorem Ipsum is simply dummy text of the pring and typesetting
+                        industry. Lorem Ipsum has been the
+                        industry's standaum.</p>
                 </div>
             </div>
         </div>
-        
-        
-        
-        
-        
-
     </section>
     <!--why-choose-us end-->
+
+    <section class="become-author">
+        <div class="container">
+            <div class="become-author__inner">
+                <div class="become-author__about">
+                    <div class="become-author__text">
+                      <p>Over <span> 20.000 </span>Author
+                     </p>
+                      <p>
+                        Are Involved Here!
+                      </p>
+                    </div>
+                        <button class="become-author__button">
+                                Become A Author
+                        </button>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+    <!-- /.become-author -->
+
+    <!--trending-products start-->
+    <section class="trending-products">
+        <h3 class="trending-products__headline">
+            This Week Trending Products
+        </h3>
+        <div class="container-fluid  ">
+
+            <div class="trending-products__slider">
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/1.jpg" alt="img1">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/2.jpg" alt="img2">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/3.jpg" alt="img3">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/4.jpg" alt="img4">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/5.jpg" alt="img5">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/6.jpg" alt="img6">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/7.jpg" alt="img7">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/8.jpg" alt="img8">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/9.jpg" alt="img9">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/10.jpg" alt="img10">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/11.jpg" alt="img11">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            </a>
+
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/12.jpg" alt="img12">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/13.jpg" alt="img13">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/14.jpg" alt="img14">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/10.jpg" alt="img15">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/2.jpg" alt="img2">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/3.jpg" alt="img3">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/4.jpg" alt="img4">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/5.jpg" alt="img5">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/6.jpg" alt="img6">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/7.jpg" alt="img7">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/8.jpg" alt="img8">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/9.jpg" alt="img9">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/10.jpg" alt="img10">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/11.jpg" alt="img11">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            </a>
+
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/12.jpg" alt="img12">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/13.jpg" alt="img13">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/14.jpg" alt="img14">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/10.jpg" alt="img15">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div class="product-card">
+                        <img class="product-card__picture" src="img/16.jpg" alt="img16">
+                        <div class="product-card__label">
+                            <img src="img/trending-icon.png" alt="card">
+                        </div>
+
+                        <a href="#" class="product-card__body">
+                            <div class="product-card__info">
+                                <h6 class="product__name">
+                                    Gymedge
+                                </h6>
+                                <p class="product__model">
+                                    joomla Template
+                                </p>
+                            </div>
+                            <div class="product__price">
+                                <p>$45</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="seller product-card__seller">
+                            <div class="seller__info">
+                                <div class="seller__logo">
+
+                                </div>
+                                <p class="seller__name">
+                                    Radiustheme
+                                </p>
+                            </div>
+                            <div class="seller__rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+     
+    <script src="https://kit.fontawesome.com/936a744753.js"></script>
+        <!--container fluid end-->
+    </section>
+    <!-- /.trending-products -->
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="container ">
+            <div class="row">
+                <div class="col col-3">
+                    <h3 class="footer__headlene">
+                        About company
+                    </h3>
+                    <div class="footer__element"></div>
+                    <p class="footer__description">
+                        Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet
+                        urna iat.Praesent vel rutrum purus.
+                    </p>
+                    <div class="footer__container d-flex">
+                        <img src="img/marker.png" alt="marker">
+                        <p>PO Box 16122 Collins Street West
+                            Victoria 8007 Australia </p>
+                    </div>
+                    <div class="footer__container d-flex">
+                        <img src="img/Call.png" alt="Call">
+                        <a href="#"> +61 3 8376 6284 </a>
+                    </div>
+
+                </div>
+
+                <div class="col col-3">
+                    <h3 class="footer__headlene">
+                        Join Our Community
+                    </h3>
+                    <div class="footer__element"></div>
+                    <div class="footer__items">
+                        <a href="#">home</a>
+                    </div>
+                    <div class="footer__items">
+                        <a href="#">Forums</a>
+                    </div>
+
+                    <div class="footer__items">
+                        <a href="#">Become an Author</a>
+                    </div>
+                    <div class="footer__items">
+                        <a href="#"> Community Meetups</a>
+                    </div>
+                    <div class="footer__items">
+                        <a href="#">Become an Affiliate</a>
+                    </div>
+
+
+                </div>
+
+                <div class="col col-3">
+                    <h3 class="footer__headlene">
+                        Need Help?
+                    </h3>
+                    <div class="footer__element"></div>
+                    <div class="footer__items">
+                        <a href="#">Help Center</a>
+                    </div>
+
+                    <div class="footer__items">
+                        <a href="#">Foxtar Market Terms</a>
+                    </div>
+                    <div class="footer__items">
+                        <a href="#">Author Terms</a>
+                    </div>
+                    <div class="footer__items">
+                        <a href="#">Foxtar Licenses</a>
+                    </div>
+                    <div class="footer__items">
+                        <a href="#">Contact Us</a>
+                    </div>
+
+                </div>
+
+                <div class="col col-3">
+                    <h3 class="footer__headlene">
+                        Follow Us On
+                    </h3>
+                    <div class="footer__element"></div>
+                    <nav class="social-networks">
+                        <a href="#" class="footer__icon">
+                            <div class="icon-facebook"></div>
+                        </a>
+                        <a href="" class="footer__icon">
+                            <div class="icon-twitter"></div>
+                        </a>
+                        <a href="" class="footer__icon">
+                            <div class="icon-youtube"></div>
+                        </a>
+                        <a href="" class="footer__icon">
+                            <div class="icon-pinterest"></div>
+                        </a>
+                        <a href="" class="footer__icon">
+                            <div class="icon-linkedin"></div>
+                        </a>
+                    </nav>
+                    <div class="footer__form">
+                        <form action="email">
+                            <h6 class="form__name">Newsletter Sign Up!</h6>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <button class="btn">
+                                <div class="btn__imege">
+                                    <img src="img/mail.png" alt="">
+                                </div>
+                            </button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/.contanier-->
+        <div class="footer__copyright">
+            <div class="col col-12">
+                <div class="footer__text">
+                    <p>© 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /.footer end -->
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--<script src="js/libs.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/libs.min.js"></script>
     <script src="js/main.js"></script>
+
+
+
 </body>
 
 </html>

@@ -1,0 +1,105 @@
+@import "base/variables";
+@import "base/components";
+@import "base/mixins";
+@import "base/fonts";
+
+// product-author start
+
+.product-author {
+    text-transform: capitalize;
+    padding: 25px 11px 30px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+
+    &__title {
+        font-family: 'roboto-bold', Helvetica, Arial, sans-serif;
+        color: #263238;        
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 23px;       
+    }
+
+    &__content {
+        border-top: 1px solid #dde3e8;
+        padding-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 24px;
+    }
+
+    &__img {
+        height: 63px;
+        width: 73px;
+    }
+    
+    &__logo {
+        background-position: center;
+        background-size: contain;        
+    }
+
+    &__name-img {       
+        color: #263238;
+        font-family: 'roboto-regular', Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 14px;            
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    &__profile-btn {        
+        color: #707070;
+        font-family: 'roboto-regular', Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        background-color: #ffffff; 
+        border: 1px solid #d3d3d3;
+        padding: 8px;
+        border-radius: 0px;
+        display: inline-block;       
+    }
+
+    &__icon {
+        display: inline-block;                       
+    }
+}
+
+// product-author end
+
+// product-sales start
+
+.product-sales {
+    background-color: #ffffff;
+    padding: 23px 28px;
+
+    &__shopping {        
+        color: #a6b5bb;        
+        font-size: 20px;        
+        margin-right: 20px;       
+    }
+
+    &__data {
+        color: #263238;
+        font-family: 'roboto-bold', Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 60px;
+        margin-right: 15px;      
+    }
+
+    &__point {        
+        font-family: 'roboto-light', Helvetica, Arial, sans-serif;
+        color: #707070;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 60px;
+        display: inline-block;
+    }
+}
+
+
+// product-sales end
