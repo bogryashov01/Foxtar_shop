@@ -21,8 +21,10 @@
 // menu
 @import "parts/menu";
 
-@import "home/tutorial.scss";
+@import "home/tutorial";
 // product-author
 @import "product-details/product-information";
 // product-author
 @import "product-details/product-author";
+// product-details
+@import "product-details/product-details-tabs"
