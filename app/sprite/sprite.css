@@ -18,25 +18,25 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-bolt-mini {
   background-image: url(sprite-1441a7909c.png);
-  background-position: -34px -74px;
+  background-position: -34px 0px;
   width: 34px;
   height: 37px;
 }
 .icon-bolt {
   background-image: url(sprite-1441a7909c.png);
-  background-position: 0px 0px;
+  background-position: -102px -37px;
   width: 34px;
   height: 37px;
 }
 .icon-emoji-mini {
   background-image: url(sprite-1441a7909c.png);
-  background-position: -102px 0px;
+  background-position: -68px 0px;
   width: 34px;
   height: 37px;
 }
 .icon-emoji {
   background-image: url(sprite-1441a7909c.png);
-  background-position: -102px -37px;
+  background-position: 0px -37px;
   width: 34px;
   height: 37px;
 }
@@ -54,19 +54,19 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-foursquare {
   background-image: url(sprite-1441a7909c.png);
-  background-position: 0px -37px;
+  background-position: -102px 0px;
   width: 34px;
   height: 37px;
 }
 .icon-leaf-mini {
   background-image: url(sprite-1441a7909c.png);
-  background-position: -68px 0px;
+  background-position: 0px 0px;
   width: 34px;
   height: 37px;
 }
 .icon-leaf {
   background-image: url(sprite-1441a7909c.png);
-  background-position: -34px -37px;
+  background-position: 0px -74px;
   width: 34px;
   height: 37px;
 }
@@ -78,31 +78,31 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-pinterest {
   background-image: url(sprite-1441a7909c.png);
-  background-position: -96px -74px;
+  background-position: -68px -74px;
   width: 28px;
   height: 28px;
 }
 .icon-twitter {
   background-image: url(sprite-1441a7909c.png);
-  background-position: -136px -56px;
+  background-position: -96px -74px;
   width: 28px;
   height: 28px;
 }
 .icon-yen-mini {
   background-image: url(sprite-1441a7909c.png);
-  background-position: -34px 0px;
+  background-position: -34px -74px;
   width: 34px;
   height: 37px;
 }
 .icon-yen {
   background-image: url(sprite-1441a7909c.png);
-  background-position: 0px -74px;
+  background-position: -34px -37px;
   width: 34px;
   height: 37px;
 }
 .icon-youtube {
   background-image: url(sprite-1441a7909c.png);
-  background-position: -68px -74px;
+  background-position: -136px -56px;
   width: 28px;
   height: 28px;
 }
