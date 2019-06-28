@@ -20,5 +20,9 @@ $(function () {
       dots: true,
       arrows: false,
     });
-  }
+  };
+
+  if($("#tabs").length) {
+    $( "#tabs" ).tabs();
+  };
 });
