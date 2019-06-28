@@ -3,8 +3,6 @@
 @import "../base/fonts";
 
 
-// poster-mini start
-
 .poster {
     height: 532px;
     position: relative;
@@ -67,7 +65,7 @@
 
 .search {
     position: relative;
-    width: 670px;
+    max-width: 670px;
     margin: auto;
     box-shadow: 0 1px 10px rgba(124, 178, 64, 0.75);
     background-color: #ffffff;
@@ -76,6 +74,8 @@
     justify-content: space-between;
     align-items: center;
     border-radius: 7px;
+
+    // poster-mini  
 
     &_poster-mini {        
         box-shadow: 0 1px 10px rgba(100, 100, 100, 0.75);        
@@ -104,4 +104,27 @@
     }   
 }
 
+
 // poster-mini end
+
+// poster adaptation start
+
+@media (max-width: 991px) {
+    .poster {
+
+        &__title {
+            line-height: 1.2;
+        }
+
+        &__description {                  
+            margin-bottom: 25px;
+        }
+    }
+
+    .search {
+        padding: 10px;
+    }
+}
+
+// poster adaptation end
+

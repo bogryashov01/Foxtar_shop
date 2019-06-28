@@ -92,3 +92,9 @@
 .irs--flat .irs-bar {
     left: 6.14508%;
 }
+
+@media (max-width: 991px) {
+    .displ-n {
+        display: none;
+    }
+}
