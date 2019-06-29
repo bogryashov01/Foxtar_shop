@@ -1,6 +1,7 @@
 .trending-products {
     padding: 120px 0;
     background-color: #fff;
+    overflow: hidden;
 
     &__headline {
         font-family: $roboto;
