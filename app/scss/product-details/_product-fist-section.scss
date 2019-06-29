@@ -2,6 +2,7 @@
     width: 100%;
     padding: 20px;
     border: 1px solid #dcdcdc;
+    margin-bottom: 40px;
     
 
 &__picture {
@@ -14,7 +15,7 @@
     font-size: 30px;
     font-family: "roboto-regular",Arial, Helvetica, sans-serif;
     font-weight: normal;
-    padding: 40px 0;
+    margin-bottom: 40px;
 
 }
 
@@ -22,12 +23,12 @@
     font-family: "roboto-regular",Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 50px;
 
 
 }
 
 &__items {
-    padding: 50px 0;
     display: flex;
     align-items: center;
     max-width: 100%;
@@ -35,15 +36,11 @@
 
 .button {
     padding: 12px 12px;
-    margin-left: 20px;
+    margin-right: 20px;
     color: #ffffff;
     font-size: 16px;
     font-family: "roboto-medium",Arial, Helvetica, sans-serif;
     font-weight: 500;
-}    
-
-.button:first-child {
-    margin-left: 0;
 }    
 
 .btn_red {
@@ -67,7 +64,7 @@
 }
 
 &__link {
-    margin-right: 3px;
+    margin-left: 3px;
 }
 
 
