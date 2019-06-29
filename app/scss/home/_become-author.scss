@@ -48,3 +48,65 @@ button {
 }
 
 }
+
+
+
+@media(max-width: 1024px) {
+
+    .become-author {
+        padding: 100px 0;
+    }
+
+    .become-author__inner {
+    
+        padding: 87px 135px;
+    }
+
+}
+
+@media(max-width: 992px){
+
+    .become-author{
+        padding: 70px 0px;
+    }    
+    
+    .become-author__inner {
+        padding: 95px 60px;
+    }
+    
+    .become-author__about {
+        padding: 67px 0px;
+    }
+    
+    .become-author__about button {
+        padding: 15px 38px;
+    }
+    
+    
+    }
+
+@media(max-width: 575px) {
+
+    .become-author {
+        padding: 74px 0px;
+    }    
+    
+    .become-author__inner {
+        padding: 74px 0px;
+    }
+    
+    .become-author__about {
+        padding: 67px 0px;
+    }
+    
+    .become-author__about button {
+        font-size: 15px;
+        padding: 13px 42px;
+    }
+    
+    .become-author__text p {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    }

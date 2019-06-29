@@ -19,6 +19,14 @@ $(function () {
       adaptiveHeight: false,
       dots: true,
       arrows: false,
+      responsive: [
+        {
+          breakpoint:576,
+          settings: {
+           slidesToShow: 1,
+           slidesToScroll: 1,
+         }
+        }]
     });
   }
 });
