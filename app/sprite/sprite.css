@@ -1,0 +1,132 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-bolt-mini {
+  background-image: url(sprite-1441a7909c.png);
+  background-position: 0px -137px;
+  width: 34px;
+  height: 37px;
+}
+.icon-bolt {
+  background-image: url(sprite-1441a7909c.png);
+  background-position: -102px -100px;
+  width: 34px;
+  height: 37px;
+}
+.icon-emoji-mini {
+  background-image: url(sprite-1441a7909c.png);
+  background-position: -142px -37px;
+  width: 34px;
+  height: 37px;
+}
+.icon-emoji {
+  background-image: url(sprite-1441a7909c.png);
+  background-position: -142px -74px;
+  width: 34px;
+  height: 37px;
+}
+.icon-face {
+  background-image: url(sprite-1441a7909c.png);
+  background-position: 0px 0px;
+  width: 54px;
+  height: 50px;
+}
+.icon-facebook {
+  background-image: url(sprite-1441a7909c.png);
+  background-position: -118px -137px;
+  width: 28px;
+  height: 28px;
+}
+.icon-foursquare-mini {
+  background-image: url(sprite-1441a7909c.png);
+  background-position: 0px -100px;
+  width: 34px;
+  height: 37px;
+}
+.icon-foursquare {
+  background-image: url(sprite-1441a7909c.png);
+  background-position: -34px -100px;
+  width: 34px;
+  height: 37px;
+}
+.icon-leaf-mini {
+  background-image: url(sprite-1441a7909c.png);
+  background-position: -68px -100px;
+  width: 34px;
+  height: 37px;
+}
+.icon-leaf {
+  background-image: url(sprite-1441a7909c.png);
+  background-position: -108px 0px;
+  width: 34px;
+  height: 37px;
+}
+.icon-linkedin {
+  background-image: url(sprite-1441a7909c.png);
+  background-position: -90px -137px;
+  width: 28px;
+  height: 28px;
+}
+.icon-linkedin1 {
+  background-image: url(sprite-1441a7909c.png);
+  background-position: -54px 0px;
+  width: 54px;
+  height: 50px;
+}
+.icon-pinterest {
+  background-image: url(sprite-1441a7909c.png);
+  background-position: -62px -137px;
+  width: 28px;
+  height: 28px;
+}
+.icon-pinterest2 {
+  background-image: url(sprite-1441a7909c.png);
+  background-position: -54px -50px;
+  width: 54px;
+  height: 50px;
+}
+.icon-twitter {
+  background-image: url(sprite-1441a7909c.png);
+  background-position: -34px -137px;
+  width: 28px;
+  height: 28px;
+}
+.icon-twitter1 {
+  background-image: url(sprite-1441a7909c.png);
+  background-position: 0px -50px;
+  width: 54px;
+  height: 50px;
+}
+.icon-yen-mini {
+  background-image: url(sprite-1441a7909c.png);
+  background-position: -142px 0px;
+  width: 34px;
+  height: 37px;
+}
+.icon-yen {
+  background-image: url(sprite-1441a7909c.png);
+  background-position: -108px -37px;
+  width: 34px;
+  height: 37px;
+}
+.icon-youtube {
+  background-image: url(sprite-1441a7909c.png);
+  background-position: -146px -137px;
+  width: 28px;
+  height: 28px;
+}

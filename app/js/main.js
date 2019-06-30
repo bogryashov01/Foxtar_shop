@@ -25,6 +25,20 @@ $(function () {
           settings: {
             slidesToShow: 1
           }
+        },
+        {
+          breakpoint: 996,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+          }
+        },
+        {
+          breakpoint: 1240,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+          }
         }
       ]
     });
