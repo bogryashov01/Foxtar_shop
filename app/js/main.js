@@ -42,5 +42,9 @@ $(function () {
         }
       ]
     });
-  }
+  };
+
+  if($("#tabs").length) {
+    $( "#tabs" ).tabs();
+  };
 });

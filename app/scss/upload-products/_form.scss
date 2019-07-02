@@ -72,3 +72,49 @@
     }
 
 }
+
+@media (max-width: 991px) {
+    .upload-item {
+
+        &__btn{
+        margin-left: 134px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .upload-item {
+
+        &__form-group{
+        display: flex;
+        flex-wrap: wrap;
+        }
+
+        &__label_mark {    
+            font-size: 15px;
+        }
+
+        &__label {
+            margin-bottom: 10px;
+        }
+
+        &__field {
+            padding: 8px 6px;
+            font-size: 12px;
+        }
+
+        &__form-area {
+            padding: 20px 25px 20px 22px;
+        }
+        
+        &__btn{
+        display: flex;
+        margin: auto;
+        padding: 10px 35px;
+        }
+    }
+        
+    .form-control {
+        font-size: 15px;
+    }
+}

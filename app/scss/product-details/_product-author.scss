@@ -7,7 +7,7 @@
 
 .product-author {
     text-transform: capitalize;
-    padding: 25px 11px 30px;
+    padding: 25px 30px 30px;
     background-color: #ffffff;
     margin-bottom: 30px;
 
@@ -60,7 +60,12 @@
         border: 1px solid #d3d3d3;
         padding: 8px;
         border-radius: 0px;
-        display: inline-block;       
+        display: inline-block;               
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
     }
 
     &__icon {
@@ -75,6 +80,7 @@
 .product-sales {
     background-color: #ffffff;
     padding: 23px 28px;
+    margin-bottom: 30px;
 
     &__shopping {        
         color: #a6b5bb;        
@@ -101,5 +107,10 @@
     }
 }
 
+@media (max-width: 991px) {
+    .displ-n {
+        display: none;
+    }
+}
 
 // product-sales end

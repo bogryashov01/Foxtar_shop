@@ -6,6 +6,7 @@
     border: 1px solid #dcdcdc;
     background-color: #ffffff;
     padding: 25px 30px 30px;
+    margin-bottom: 35px;
 
     &__title {
         text-transform: capitalize;
@@ -90,4 +91,10 @@
     
 .irs--flat .irs-bar {
     left: 6.14508%;
+}
+
+@media (max-width: 991px) {
+    .displ-n {
+        display: none;
+    }
 }
